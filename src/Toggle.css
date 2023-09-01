@@ -1,0 +1,81 @@
+.botoggle__containerdy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .theme-toggle {
+    position: relative;
+    width: 60px;
+    height: 30px;
+  }
+  
+  .toggle-checkbox {
+    display: none;
+  }
+  
+  .toggle-label {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(23, 25, 43);
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(192,42,142);
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+    align-items: center;
+  }
+  .MuiSvgIcon-root{
+    
+  }
+  
+  .toggle-checkbox:checked + .toggle-label {
+    background-color: #1e1e1e;
+  }
+  
+  .toggle-checkbox:checked + .toggle-label .toggle-container {
+    transform: translateX(100%);
+  }
+  
+  .toggle-checkbox:checked + .toggle-label .icon.sun {
+    color: white;
+  }
+  
+  .toggle-checkbox:checked + .toggle-label .icon.moon {
+    color: white;
+  }
+  

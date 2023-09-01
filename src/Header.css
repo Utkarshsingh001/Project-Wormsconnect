@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    height: 10vh;
+    
+}
+
+
+
+.header__loginAvatar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header__loginAvatar>h3{
+
+}
+.header__loginAvatar>img{
+ object-fit: contain;
+ width: 40px;
+ height: 40px !important;
+ border-radius: 999px;
+}
+.right__panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    height: 10vh;
+}

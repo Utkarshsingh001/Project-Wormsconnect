@@ -1,0 +1,77 @@
+.button{
+    display: block;
+    align-items: center;
+    width: ;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card {
+  width: 370px;
+  height: 250px;
+  background-color: rgb(22,24,42);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateZ(50px);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateZ(100px);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.sc-eqUAAy{
+    display: none !important;
+}
+.card__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.toggle_box{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+}
+
+.toggle {
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 17px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .slider {
+    width: 25px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .toggle.active .slider {
+    transform: translateX(26px);
+  }
+  
+  .toggle.active {
+    background-color: #2196F3;
+  }

@@ -1,0 +1,15 @@
+.app{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-right: 0 !important;
+}
+.app__sidebar{
+  flex: 1;
+}
+
+.app__containerHnDdivision{
+flex: 3;
+background-color: rgb(1,8,31);
+color: white;
+}
